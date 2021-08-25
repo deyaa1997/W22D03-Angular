@@ -1,0 +1,28 @@
+
+ .mainPage{
+ position: absolute;
+ left: 550px;
+top:70px;
+width:400px;
+height: 500px;
+border:4px purple solid;
+} 
+.head{
+    position: absolute;
+    color: purple;
+    left: 650px;
+}
+.btn1{
+    background-color: purple;
+    color:wheat;
+    position: absolute;
+    left:15px;
+    top:5px;
+}
+.btn2{
+    background-color: purple;
+    color:wheat;
+    position: absolute;
+    left:340px;
+    top:5px;
+}

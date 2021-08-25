@@ -1,0 +1,10 @@
+<p>{{name}}</p>
+<ul *ngFor ="let elem of toDos; let i = index">
+    <li>{{elem}}</li>
+
+    <button (click) = "showMe(elem)" >Click</button>
+</ul>
+
+<input type="text"  [(ngModel)]="email" />
+
+<h1>{{email}}</h1>

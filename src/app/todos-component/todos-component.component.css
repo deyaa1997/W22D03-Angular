@@ -1,0 +1,42 @@
+.todosPage{
+    position:absolute;
+    left:10px;
+    top:80px
+
+}
+.list {
+    display: grid;
+    grid-template-columns: 80px 100px;
+}
+.list1 {
+    display: grid;
+    grid-template-columns:80px 80px 80px;
+}
+.btn4{
+    background-color: purple;
+    color:wheat;
+}
+.update{
+    position:absolute;
+    left:25px;
+}
+.btn5{
+    background-color: purple;
+    color:wheat;
+    position:absolute;
+    left:180px;
+
+}
+.head2{
+    color:purple;
+    position: relative;
+    top:18px
+
+}
+.comp{
+    
+    color:purple;
+    position: relative;
+    top:10px
+ 
+}

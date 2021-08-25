@@ -1,0 +1,40 @@
+<app-todo-component [newTodos]="todos"></app-todo-component>
+<br>
+<br>
+<div [class.todosPage]='true'>
+<ul *ngFor="let todo of todos, let i=index">
+  <div [class.list]='true'>
+<li> 
+    {{todo}}
+</li>
+<div [class.list1]='true'>
+<button  [class.btn4]='true'(click)="delete(i)"> delete</button>
+<button [class.btn4]='true'(click)="complete(i)">complete</button>
+<button [class.btn4]='true'(click)="update(i)"> update </button>
+</div>
+</div>
+</ul>
+<ng-template  [ngIf]="show" [ngIfElse]="notShow">
+  
+    <input  [class.update]='true' type="text" placeholder="updete here" [(ngModel)]="list"/>
+  
+    <button [class.btn5]='true' (click)='update2(num,list)' >update</button>
+  </ng-template>
+  
+  <ng-template #notShow>
+    <p>
+          
+  </p>
+  </ng-template>
+  
+<h1 [class.head2]="true">completed task</h1>
+<ul *ngFor="let com of comp, let i=index">
+
+   <li [class.comp]="true"> 
+        {{com}}
+</li>
+
+ </ul>
+
+</div>
+ 
